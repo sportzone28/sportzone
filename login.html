@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - SportZone</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header><h1>Login</h1><nav><a href="../index.html">Início</a></nav></header>
+  <main>
+    <form class="login-form" onsubmit="return fazerLogin(event)">
+      <input type="text" placeholder="Usuário" id="usuario" required>
+      <input type="password" placeholder="Senha" id="senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+  </main>
+  <script>
+    function fazerLogin(e) {{
+      e.preventDefault();
+      alert("Login simulado com sucesso!");
+      return false;
+    }}
+  </script>
+</body>
+</html>
